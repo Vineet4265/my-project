@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Tap, Your Ride Fixed!</title>
+  <link rel="icon" href="Ride/rang.png">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+  
+
+<header class="nav">
+  <div class="nav-container">
+
+    <div class="nav-left">
+      <img src="Ride/last.png" class="logo">
+    </div>
+
+    <input type="checkbox" id="toggle">
+
+    <label for="toggle" class="menu-btn">
+      <img src="Ride/hamburger.webp" class="hamburger">
+      <img src="Ride/close.png" class="close">
+    </label>
+
+    <nav class="nav-links">
+      <a href="#">About Us</a>
+      <a href="#">Services</a>
+      <a href="#">Become a Partner</a>
+      <a href="#">Safety</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+
+  </div>
+</header> 
+
+  <div class="content">
+<div class="content-background">
+  <div class="content-data">
+    <div class = "content-data-quote">
+      Your Ride, Our Responsibility!
+    </div>
+    <div class="content-container">
+      <div class="issue inputimg">
+        <img class="issue iconwrench" src="Ride/wrench (1).png">
+        <input type="text" placeholder="Vehicle Issue" class="issue vehicle problem "></div>
+    <div class="issue inputimg">
+      <img class="issue toplace iconwrench" src="Ride/location.png">
+      <input type="text" placeholder="Your Location" class="issue vehicle problem"></div>
+       <button onclick="getLocation()" class="location-btn">
+    Use My Location 
+  </button>
+    <button class="issue mech">Request Mechanic</button>
+    </div> 
+  </div>
+</div>
+<div class="container-background">
+<div class="services-section">
+  <p class="service-heading">Choose your Services</p>
+
+  <div class="services-grid">
+    <div class="card">
+      <img src="Ride/service1img.png">
+      <p>Flat Tyre/ Puncture</p>
+    </div>
+
+    <div class="card">
+      <img src="Ride/service2img.png">
+      <p>Brake Issues</p>
+    </div>
+
+    <div class="card">
+      <img src="Ride/service3img.png">
+      <p>Basic Car or Bike Servicing</p>
+    </div>
+
+    <div class="card">
+      <img src="Ride/service4img.png">
+      <p>Oil Leakage or Overheating</p>
+    </div>
+
+    <div class="card">
+      <img src="Ride/service5img.png">
+      <p>Engine Issues</p>
+    </div>
+
+    <div class="card">
+      <img src="Ride/service6img.png">
+      <p>Battery Service</p>
+    </div>
+  </div>
+</div>
+
+
+  <section class="ba-section">
+  <div class="ba-container">
+    
+    <div class="ba-image">
+      <img src="Ride/repair.png" alt="Before and After Repair">
+    </div>
+
+    <div class="ba-content">
+      <h2>Every problem has a solution — we make it visible.</h2>
+      <p>
+        Your ride matters. That’s why we focus on quality repairs, real results, 
+        and a smoother experience every time.
+      </p>
+    
+    </div>
+
+  </div>
+</section>
+
+<div class="why">
+ <section class="why-section">
+  <h1>Why Choose Us</h1>
+  <p class="subtitle">Reliable roadside assistance whenever you need it.</p>
+
+  <div class="content1">
+
+    <!-- Mechanic Image -->
+    <div class="image-box">
+      <img src="Ride/mechanic2.png" alt="Mechanic fixing car">
+    </div>
+
+    <!-- Feature Cards -->
+    <div class="features">
+
+      <div class="card1">
+        <img src="Ride/fastresponse.png" class="icon">
+        <h3>Fast Response</h3>
+        <p>We reach you quickly, even in emergencies.</p>
+      </div>
+
+      <div class="card1">
+        <img src="Ride/expert.png" class="icon">
+        <h3>Expert Mechanics</h3>
+        <p>Trained professionals for bikes and cars.</p>
+      </div>
+
+      <div class="card1">
+        <img src="Ride/money.png" class="icon">
+        <h3>Transparent Pricing</h3>
+        <p>No hidden charges. Pay only for what you need.</p>
+      </div>
+
+      <div class="card1">
+        <img src="Ride/location1.png" class="icon">
+        <h3>24/7 Availability</h3>
+        <p>Day or night, we are always ready to help.</p>
+      </div>
+
+      <button class="btn2">Request Mechanic</button>
+    </div>
+
+  </div>
+</section>
+
+</div>
+
+<div class="testimonial">
+<section class="testimonials-section">
+  <h1>Testimonials</h1>
+  <p class="subtitle">Our customers say it best.</p>
+
+  <div class="testimonials-grid">
+
+    <div class="testimonial-card">
+      <img src="Ride/twomech.png" alt="mechanic helping customer">
+      <div class="stars">★★★★★</div>
+      <p class="quote">
+        “Car wouldn’t start, they came out quickly and fixed it.”
+      </p>
+      <span class="author">— Sandeep, Chennai</span>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="Ride/mechwomen.png" alt="mechanic with customer">
+      <div class="stars">★★★★★</div>
+      <p class="quote">
+        “Great service! They got my car back on the road in no time.”
+      </p>
+      <span class="author">— Priya, Mumbai</span>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="Ride/oldman.png" alt="roadside mechanic">
+      <div class="stars">&starf;&starf;&starf;&starf;&starf;</div>
+      <p class="quote">
+        “Stuck on the highway, help arrived within minutes.”
+      </p>
+      <span class="author">— Anil, Delhi</span>
+    </div>
+
+  </div>
+</section>
+
+</div>
+
+</div>
+
+
+  <div class="footer">
+<div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-col">
+      <h3>Fix My Ride</h3>
+      <p>
+        Fast, reliable roadside assistance for bikes and cars.  
+        Anytime. Anywhere.
+      </p>
+    </div>
+
+    <!-- Links -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Why Choose Us</a></li>
+        <li><a href="#">Testimonials</a></li>
+      </ul>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>📞 +91 98765 43210</p>
+      <p>📧 support@fixmyride.com</p>
+      <p>📍 India</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Fix My Ride. All rights reserved.</p>
+  </div>
+  </div>
+</div>
+<script src="script1.js"></script>
+</body>
+</html>
